@@ -82,6 +82,7 @@ cask "openzfs"
 cask "pingplotter"
 cask "rcloneosx"
 cask "tor-browser"
+cask "visual-studio-code"
 cask "wireshark"
 mas "1Blocker", id: 1107421413
 mas "AdGuard for Safari", id: 1440147259
