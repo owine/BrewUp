@@ -68,6 +68,7 @@ brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "apple-events"
 cask "brave-browser"
 cask "cyberduck"
+cask "db-browser-for-sqlite"
 cask "diskmaker-x"
 cask "docker"
 cask "duet"
@@ -87,3 +88,33 @@ cask "tor-browser"
 cask "usb-overdrive"
 cask "visual-studio-code"
 cask "wireshark"
+mas "1Blocker", id: 1107421413
+mas "AdGuard for Safari", id: 1440147259
+mas "ASUS Firmware Restoration", id: 1020519014
+mas "Caffeine", id: 411246225
+mas "Calcbot", id: 931657367
+mas "CleanMyDrive 2", id: 523620159
+mas "Deliveries", id: 924726344
+mas "Disk Care", id: 913724705
+mas "Disk Speed Test", id: 425264550
+mas "Encrypto", id: 935235287
+mas "Evernote", id: 406056744
+mas "GarageBand", id: 682658836
+mas "GraphicConverter 10", id: 1090470302
+mas "HardwareGrowler", id: 475260933
+mas "iMovie", id: 408981434
+mas "Internet Access Policy Viewer", id: 1482630322
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pastebot", id: 1179623856
+mas "Roomie Remote", id: 1467513544
+mas "Skitch", id: 425955336
+mas "SleepMute", id: 421822575
+mas "Speedtest", id: 1153157709
+mas "Spy Cam", id: 438924363
+mas "Swackett", id: 1433715306
+mas "The Archive Browser", id: 510232205
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
