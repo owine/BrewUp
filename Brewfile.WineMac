@@ -92,6 +92,7 @@ cask "rocket-chat"
 cask "tor-browser-alpha"
 cask "usb-overdrive"
 cask "visual-studio-code"
+cask "visual-studio-code-insiders"
 cask "wireshark"
 mas "1Blocker", id: 1107421413
 mas "AdGuard for Safari", id: 1440147259
