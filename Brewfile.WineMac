@@ -23,7 +23,7 @@ brew "diffutils"
 brew "findutils"
 brew "gawk"
 brew "netcdf"
-brew "numpy", link: false
+brew "numpy"
 brew "openjpeg"
 brew "gdal"
 brew "geoip"
