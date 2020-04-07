@@ -55,7 +55,7 @@ brew "quilt"
 brew "rclone"
 brew "spatialindex"
 brew "speedtest-cli"
-brew "ssh-copy-id"
+brew "ssh-copy-id", link: true
 brew "tmux"
 brew "upx"
 brew "watch"
