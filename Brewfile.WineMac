@@ -55,6 +55,7 @@ brew "rclone"
 brew "spatialindex"
 brew "speedtest-cli"
 brew "ssh-copy-id", link: true
+brew "terminal-notifier"
 brew "tmux"
 brew "upx"
 brew "watch"
