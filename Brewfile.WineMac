@@ -53,6 +53,7 @@ brew "nmap"
 brew "p7zip"
 brew "podofo"
 brew "quilt"
+brew "rclone"
 brew "spatialindex"
 brew "speedtest-cli"
 brew "ssh-copy-id", link: true
