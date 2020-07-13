@@ -1,0 +1,142 @@
+tap "homebrew/aliases"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "vitorgalvao/tiny-scripts"
+brew "openssl@1.1"
+brew "augeas"
+brew "bash"
+brew "bash-completion"
+brew "xz"
+brew "python@3.8"
+brew "libidn2"
+brew "nettle"
+brew "cask"
+brew "certbot"
+brew "coreutils"
+brew "curl"
+brew "cython"
+brew "diffutils"
+brew "findutils"
+brew "gawk"
+brew "netcdf"
+brew "numpy"
+brew "openjpeg"
+brew "gdal"
+brew "geoip"
+brew "grep"
+brew "haste-client"
+brew "ncurses"
+brew "htop"
+brew "ilmbase"
+brew "libheif"
+brew "imagemagick"
+brew "iperf3"
+brew "jq"
+brew "node"
+brew "jsonlint"
+brew "knot"
+brew "pango"
+brew "libvorbis"
+brew "links"
+brew "lynx"
+brew "mas"
+brew "media-info"
+brew "mkvtoolnix"
+brew "movgrab"
+brew "ncdu"
+brew "nmap"
+brew "p7zip"
+brew "podofo"
+brew "quilt"
+brew "rclone"
+brew "spatialindex"
+brew "speedtest-cli"
+brew "ssh-copy-id", link: true
+brew "terminal-notifier"
+brew "tmux"
+brew "upx"
+brew "watch"
+brew "wget"
+brew "winetricks"
+brew "yarn"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-git-prompt"
+brew "zsh-syntax-highlighting"
+brew "vitorgalvao/tiny-scripts/cask-repair"
+cask "apple-events"
+cask "balenaetcher"
+cask "bbedit"
+cask "brave-browser-dev"
+cask "cocktail"
+cask "cyberduck"
+cask "db-browser-for-sqlite"
+cask "diskmaker-x"
+cask "docker"
+cask "duet"
+cask "etrecheckpro"
+cask "filebot"
+cask "g-desktop-suite"
+cask "google-earth-pro"
+cask "handbrake"
+cask "install-disk-creator"
+cask "makemkv"
+cask "mediainfo"
+cask "mkvtools"
+cask "mono-mdk"
+cask "mountain-duck"
+cask "mullvadvpn-beta"
+cask "nextcloud"
+cask "onyx"
+cask "openzfs"
+cask "pingplotter"
+cask "qlvideo"
+cask "rcloneosx"
+cask "rocket-chat"
+cask "synergy"
+cask "telegram-desktop-dev"
+cask "termius"
+cask "tor-browser-alpha"
+cask "usb-overdrive"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "visual-studio-code-insiders"
+cask "vivaldi"
+cask "wine-stable"
+cask "wireshark"
+cask "xquartz"
+mas "1Blocker", id: 1107421413
+mas "AdGuard for Safari", id: 1440147259
+mas "Calcbot", id: 931657367
+mas "CleanMyDrive 2", id: 523620159
+mas "Deliveries", id: 924726344
+mas "Developer", id: 640199958
+mas "Disk Care", id: 913724705
+mas "Disk Speed Test", id: 425264550
+mas "Edison Mail", id: 1489591003
+mas "Encrypto", id: 935235287
+mas "Evernote", id: 406056744
+mas "GarageBand", id: 682658836
+mas "GraphicConverter 10", id: 1090470302
+mas "iMovie", id: 408981434
+mas "Internet Access Policy Viewer", id: 1482630322
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Meeter", id: 1510445899
+mas "NextDNS", id: 1464122853
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pastebot", id: 1179623856
+mas "Roomie Remote", id: 1467513544
+mas "Skitch", id: 425955336
+mas "Speedtest", id: 1153157709
+mas "Spy Cam", id: 438924363
+mas "Swackett", id: 1433715306
+mas "Tailscale", id: 1475387142
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
