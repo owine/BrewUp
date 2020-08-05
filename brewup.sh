@@ -1,4 +1,10 @@
 #!/bin/bash
+PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
+
+## Fix for brew doctor warnings if using pyenv
+if which pyenv >/dev/null 2>&1; then
+  brew='env PATH=${PATH//$(pyenv root)\/shims:/} brew'
+fi
 
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)
@@ -10,7 +16,7 @@ brewFileName="Brewfile.${HOSTNAME}"
 
 # Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ]; then
-    brew install coreutils
+  brew install coreutils
 fi
 cd $(dirname "$(realpath "$0")")
 
@@ -18,7 +24,7 @@ git pull 2>&1
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ]; then
-    brew install mas
+  brew install mas
 fi
 
 # Brew Diagnotic
