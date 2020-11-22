@@ -12,7 +12,7 @@ brew "augeas"
 brew "bash"
 brew "bash-completion"
 brew "xz"
-brew "python@3.8", link: true
+brew "python@3.8"
 brew "libidn2"
 brew "nettle"
 brew "cask"
