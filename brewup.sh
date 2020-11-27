@@ -34,13 +34,12 @@ brew missing 2>&1
 echo -e "${green}==>${reset} Brew Diagnotic Finished."
 
 # Brew packages update and cleanup
-echo "${yellow}==>${reset} Running Brew&Casks Updates..."
+echo "${yellow}==>${reset} Running Updates..."
 brew update 2>&1
+brew outdated 2>&1
 brew upgrade 2>&1
-brew outdated --cask 2>&1
-brew upgrade --cask 2>&1
 brew cleanup -s 2>&1
-echo "${green}==>${reset} Finished Brew&Casks Updates"
+echo "${green}==>${reset} Finished Updates"
 
 # App Store Updates
 echo "${green}==>${reset} Running AppStore Updates..."
@@ -55,4 +54,4 @@ git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
-echo "${green}==>${reset} All Updates & Cleanups Finnished"
+echo "${green}==>${reset} All Updates & Cleanups Finished"
