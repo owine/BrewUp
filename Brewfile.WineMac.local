@@ -61,6 +61,7 @@ brew "spatialindex"
 brew "speedtest-cli"
 brew "ssh-copy-id", link: true
 brew "terminal-notifier"
+brew "thefuck"
 brew "tmux"
 brew "upx"
 brew "watch"
