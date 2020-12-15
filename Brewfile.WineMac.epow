@@ -61,6 +61,7 @@ brew "spatialindex"
 brew "speedtest-cli"
 brew "ssh-copy-id", link: true
 brew "terminal-notifier"
+brew "thefuck"
 brew "tmux"
 brew "upx"
 brew "watch"
@@ -95,6 +96,7 @@ cask "mediainfo"
 cask "mkvtools"
 cask "mono-mdk"
 cask "mountain-duck"
+cask "mqtt-explorer"
 cask "mullvadvpn-beta"
 cask "nextcloud"
 cask "ngrok"
@@ -132,6 +134,7 @@ mas "GarageBand", id: 682658836
 mas "GraphicConverter 10", id: 1090470302
 mas "iMovie", id: 408981434
 mas "Internet Access Policy Viewer", id: 1482630322
+mas "iPhoto", id: 408981381
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "NextDNS", id: 1464122853
