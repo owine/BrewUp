@@ -75,6 +75,7 @@ brew "zsh-completions"
 brew "zsh-git-prompt"
 brew "zsh-syntax-highlighting"
 brew "vitorgalvao/tiny-scripts/cask-repair"
+cask "anydesk"
 cask "apple-events"
 cask "balenaetcher"
 cask "bbedit"
@@ -150,5 +151,6 @@ mas "Skitch", id: 425955336
 mas "Speedtest", id: 1153157709
 mas "Swackett", id: 1433715306
 mas "Tailscale", id: 1475387142
+mas "Teleprompter", id: 1533078079
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
