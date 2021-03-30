@@ -79,7 +79,7 @@ cask "anydesk"
 cask "apple-events"
 cask "balenaetcher"
 cask "bbedit"
-cask "brave-browser-dev"
+cask "brave-browser-beta"
 cask "cloudflare-warp"
 cask "cocktail"
 cask "cyberduck"
@@ -127,7 +127,6 @@ cask "wine-stable"
 cask "wireshark"
 cask "xquartz"
 cask "yubico-yubikey-manager"
-mas "1Blocker", id: 1107421413
 mas "AdGuard for Safari", id: 1440147259
 mas "Calcbot", id: 931657367
 mas "CleanMyDrive 2", id: 523620159
