@@ -33,7 +33,7 @@ brew "grep"
 brew "haste-client"
 brew "ncurses"
 brew "htop"
-brew "ilmbase"
+brew "ilmbase", link: true
 brew "libheif"
 brew "python@3.8"
 brew "imagemagick"
