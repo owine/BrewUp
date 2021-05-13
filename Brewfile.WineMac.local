@@ -34,8 +34,10 @@ brew "haste-client"
 brew "ncurses"
 brew "htop"
 brew "ilmbase", link: true
+brew "imath", link: false
 brew "libheif"
 brew "python@3.8"
+brew "openexr", link: false
 brew "imagemagick"
 brew "iperf3"
 brew "jq"
